@@ -12,3 +12,17 @@ git restore --staged <file>     back to unstaged form staged
 git reset <commit hash>         delete previous commit
 git stash       sending backstage the changes
 git stash pop   again fetching the stash data
+
+git remote -v   for checking link
+git remote add origin/upstream <link repo>      for adding link
+git remote set-url origin/upstrem <link repo>   for modify link
+
+origin -- personal repo
+upstream -- Public repo where to contribute
+
+git push origin branch-name -f  for force push after resetting the git commits
+
+
+after merging
+git pull upstream main          sync local folder with upstream
+git push origin main            sync forked online repo with local origin
