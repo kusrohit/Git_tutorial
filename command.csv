@@ -2,6 +2,13 @@ command         description
 
 touch <file>    a new file created 
 mkdir <folder>  a new folder created
+rm -rf <file>   file deleted
 git init        initialize a repo
 git add .       adding all the file in staging area
 git status      checking repo status for change 
+git log         commits history
+cat <file>      fetching content form file
+git restore --staged <file>     back to unstaged form staged
+git reset <commit hash>         delete previous commit
+git stash       sending backstage the changes
+git stash pop   again fetching the stash data
