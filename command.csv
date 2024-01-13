@@ -1,0 +1,7 @@
+command         description
+
+touch <file>    a new file created 
+mkdir <folder>  a new folder created
+git init        initialize a repo
+git add .       adding all the file in staging area
+git status      checking repo status for change 
