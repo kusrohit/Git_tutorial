@@ -1,4 +1,4 @@
-command         description
+command     description
 
 touch <file>    a new file created 
 mkdir <folder>  a new folder created
@@ -10,7 +10,7 @@ git log         commits history
 cat <file>      fetching content form file
 git restore --staged <file>     back to unstaged form staged
 git reset <commit hash>         delete previous commit
-git stash       sending backstage the changes
+git stashs      sending backstage the changes
 git stash pop   again fetching the stash data
 
 git remote -v   for checking link
