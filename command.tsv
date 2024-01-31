@@ -17,10 +17,10 @@ git remote -v   for checking link
 git remote add origin/upstream <link repo>      for adding link
 git remote set-url origin/upstrem <link repo>   for modify link
 
-origin -- personal repo
-upstream -- Public repo where to contribute
+origin      personal repo
+upstream    Public repo where to contribute
 
-git push origin branch-name -f  for force push after resetting the git commits
+git push origin branch-name -f      for force push after resetting the git commits
 
 
 after merging
