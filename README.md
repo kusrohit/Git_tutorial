@@ -23,14 +23,14 @@ Learning content of git
 | origin | personal repo | 
 | upstream | Public repo where to contribute |
 | git push origin branch-name -f | for force push after resetting the git commits | 
-|
+| | |
 | git config --list | all the details for git configuration file |
 | git config --global/local/system user.name | show the name |
 | git config --global/local/system user.email | show the email |
 | git config --global/local/system user.name "Your name" | setting the name |
 | git config --global/local/system user.email "Your email address" | setting the email address |
-|
-| After Merging |
+| | |
+| After Merging | |
 | git pull upstream main| sync local folder with upstream| 
 | git push origin main| sync forked online repo with local origin| 
 
